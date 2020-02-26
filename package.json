@@ -1,0 +1,31 @@
+{
+  "name": "insomnia-plugin-randomdate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "DIMEGLIO Théo",
+  "description": "Generate a random date for Insomnia REST Client.",
+  "main": "index.js",
+  "homepage": "https://github.com/Theo-Dgl/insomnia-plugin-randomdate",
+  "keywords": [
+    "insomnia",
+    "insomnia-plugin",
+    "random",
+    "date",
+    "datetime",
+    "random-generation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Theo-Dgl/insomnia-plugin-randomdate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Theo-Dgl/insomnia-plugin-randomdate/issues"
+  },
+  "insomnia": {
+    "name": "random-date",
+    "description": "Generate a random date"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
